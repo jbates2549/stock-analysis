@@ -3,29 +3,27 @@
 ## Overview of Project
   This project provides analyis for a group of stocks using VBA for Excel. In this analysis we compare daily volume and annual return statistics for the selected stocks.
 ### Purpose
-The purpose of the project is to calculate total daily volume and annual return for a group of stocks for years 2017 and 2018.  We use daily trading data and select the particular stocks to calculate the total volume and return for the group of stocks. 
+The purpose of the project is to calculate total daily volume and annual return for a group of stocks for years 2017 and 2018.  We use daily trading data and select the particular stocks to calculate the total volume and return for the group of stocks. The project also includes runtime analysis of refactored VBA code.  We use runtime statistics to review the performance of our code.
 
 ## Stock Analysis  
 ### Analysis
 This analysis focuses on the influence of the time of year that theater projects are launched.  The goal is to determine if the time of year influences the success of kickstarter campaigns for theater projects.  The report provides additional analysis for the plays category with the objective of determining the impact of goal amounts to the success of campaigns for plays.
 
 ### Analysis of 2017 Stock Data
-The chart below shows successful and failed theater campaigns based on launch date.  We can see that successful campaigns peak in the month of May followed by the months of June and July.  The failed campaigns remain fairly consistant, varying between 31 and 52 for each month.  Although there are small spikes in the months of May and October, the failure rate is relatively consistent.  The differences in successful campaigns vary much more with a high of 111 successful campaigns in May and a low number, 37 in December.
-
+The table below shows total daily volume and annual return for the selected stocks in 2017.  In this analysis we can see that all stocks had positive return with the exception of TERP which ahd a negative 7.2% return.  The best performing stock was DQ with a positive return of 199.4%
 
 ![image_name](https://github.com/jbates2549/stock-analysis/blob/master/2017%20Stocks.png)
 
 
 ### Analysis of 2018 Stock Data
 
-In this analyis we review the impact of fundraising goal amount on the success of the plays subcategory.  The chart below shows that campaigns are generally successful, 76%, with goal amounts under $1000.  The success rate steadily declinces as goal amounts increase, dropping to a 20% success rate for goal amounts of $25,000 to $30,000.  From there the success rate increases to 67% for campaigns in the range of $35,000 to $50,000.  From that point, campaign success drops sharply with no successful campaigns in the $45,000 to $50,000 range until a small recovery begins for campaigns over $50,000. 
-
+In this table we review the stock performance for 2018.  In 2018 only 2 stocks, ENPH and RUN, had positive return with RUN performing best, 84%.  The worst performing stock was DQ with a negative return of 62.6%. 
 
 ![image_name](https://github.com/jbates2549/stock-analysis/blob/master/2018%20Stocks.png)
 
 ### Run Time Analysis
 
-In this analyis we review the impact of fundraising goal amount on the success of the plays subcategory.  The chart below shows that campaigns are generally successful, 76%, with goal amounts under $1000.  The success rate steadily declinces as goal amounts increase, dropping to a 20% success rate for goal amounts of $25,000 to $30,000.  From there the success rate increases to 67% for campaigns in the range of $35,000 to $50,000.  From that point, campaign success drops sharply with no successful campaigns in the $45,000 to $50,000 range until a small recovery begins for campaigns over $50,000. 
+For this project we refactored existing VBA code and produced runtime results of .8007813 seconds for 2017 data and .8085938 for 2018 data.   
 
 
 ![image_name](https://github.com/jbates2549/stock-analysis/blob/master/VBA_Challenge_2017.png)
@@ -36,7 +34,5 @@ In this analyis we review the impact of fundraising goal amount on the success o
 
 ### Conclusions of Stock Analysis
 
-The Months of May through June are the best months to launch a kickstarter campaign for theater projects  These months produce the largest variance between successful and failed campaigns.  We recommend that kickstarter campaigns for theater projects be launched during these months.
-
-There is a smaller positive spike in successful campaigns in the months of February.  This month can be considered a secondary target to the Summer months for launch date.  We However these spikes are matched by similar spikes in failed campaigns 
+In general, 2017 was a much better year for the selected stocks than 2018.  Only 1 stock produced a negative return in 2017 while 10 of the 12 stocks had a negative return in 2018.  Only stocks ENPH and RUN had positive returns for both years.  ENPH had the best performance overall.
 
